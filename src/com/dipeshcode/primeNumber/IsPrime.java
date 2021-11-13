@@ -1,7 +1,8 @@
-package com.company;
+package com.dipeshcode.primeNumber;
 
 public class IsPrime {
     int i;
+
     // First method to find prime number (n)
     public boolean isPrime(int n){
         for(i=2 ; i<n ; i++){
