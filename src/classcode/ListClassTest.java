@@ -1,5 +1,7 @@
 package classcode;
 
+import classcode.graphalgo.LinkedListTest;
+
 public class ListClassTest {
     public static void main(String[] args) {
         LinkedListTest list = new LinkedListTest();

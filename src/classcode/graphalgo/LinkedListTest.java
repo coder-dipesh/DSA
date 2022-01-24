@@ -1,6 +1,7 @@
-package classcode;
+package classcode.graphalgo;
 
 public class LinkedListTest {
+
 
     int size=0;
    public static class Node{
@@ -54,6 +55,12 @@ public class LinkedListTest {
         }
        return current.data;
     }
+
+    public int getSize() {
+
+        return size;
+    }
+
 
     // Remove data at any pos
 

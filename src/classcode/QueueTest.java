@@ -8,9 +8,9 @@ public class QueueTest {
     int size;
 
     QueueTest(int n){
+        //this.front=this.rear=-1;
         this.front=-1;
         this.rear=-1;
-//        this.front=this.rear=-1;
         this.size=n;
         queue = new int[n];
 
